@@ -38,7 +38,7 @@ export default function Hero() {
           {/* placeholder image; replace with your asset later */}
           <img
             className="w-full rounded-2xl shadow-xl"
-            src="https://picsum.photos/seed/hero-books/900/600"
+            src="https://i.pinimg.com/236x/c4/3e/78/c43e789529e65057cfaa75e12621458e.jpg"
             alt="Stack of books"
           />
           {/* floating small card with social proof */}

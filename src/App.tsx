@@ -1,10 +1,7 @@
 // src/App.tsx
 import "./App.css";                     // optional
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Popular from "./components/Popular";
-import Footer from "./components/Footer";
+import { Navbar, Footer } from "./components/common";
+import { Hero, Features, Popular } from "./components/homePage";
 
 export default function App() {
   return (
