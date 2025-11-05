@@ -1,6 +1,6 @@
 // Card UI for a single product (image, name, price, actions)
 
-import type { Product } from "../../types"; // import shared type
+import type { Product } from "@/types"; // import shared type
 
 // Component props are strongly typed: product must match Product shape
 export default function ProductCard({ product }: { product: Product }) {

@@ -3,7 +3,7 @@
 
 import ProductCard from "./ProductCard";          // reuse the card component// The "Popular right now" section with a 4-card grid
 
-import type { Product } from "../../types";          // shared type
+import type { Product } from "@/types";          // shared type
 
 // temporary placeholder data; later you’ll fetch from backend
 const sampleProducts: Product[] = [
