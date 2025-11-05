@@ -22,7 +22,14 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    // 👇👇👇 Added lines for absolute imports 👇👇👇
+    "baseUrl": "src",          // tells TS that "src" is the root folder
+    "paths": {
+      "@/*": ["*"]             // allows @/something to map to src/something
+    }
+    // 👆👆👆 End of added lines 👆👆👆
   },
   "include": ["src"]
 }
